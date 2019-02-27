@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfarm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rabit3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".Admin" />
+        <activity android:name=".MarketActivity" />
+        <activity android:name=".ProductActivity" />
+        <activity android:name=".DiseaseActivity" />
+        <activity android:name=".HouseActivity" />
+        <activity android:name=".FarmActivity" />
+        <activity android:name=".FoodActivity" />
+        <activity android:name=".BreedingActivity" />
+        <activity android:name=".BreedView" />
+        <activity android:name=".Marketing" />
+        <activity android:name=".Products" />
+        <activity android:name=".Diseases" />
+        <activity android:name=".House" />
+        <activity android:name=".FarmOperations" />
+        <activity android:name=".Food" />
+        <activity android:name=".Breeding" />
+        <activity android:name=".Breeds" />
+        <activity
+            android:name=".Link"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UsersListActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">MyRabbit</string>
+
+    <string name="breeds"><u><b><i>Breeds</i></b></u></string>
+    <string name="breeding">Breeding</string>
+    <string name="food">Food_needs</string>
+    <string name="farm">Farm_operations</string>
+    <string name="house">Housing sytem</string>
+    <string name="diseases">Diseases</string>
+    <string name="products">Products</string>
+    <string name="market">Marketing</string>
+    <string name="logout">Logout</string>
+
+    <string name="breedsuser"><u><b><i>Breeds</i></b></u></string>
+    <string name="breedinguser">Breeding</string>
+    <string name="fooduser">Food_needs</string>
+    <string name="farmuser">Farm_operations</string>
+    <string name="houseuser">Housing sytem</string>
+    <string name="diseasesuser">Diseases</string>
+    <string name="productsuser">Products</string>
+    <string name="marketuser">Marketing</string>
+    <string name="logoutuser">Logout</string>
+
+
+    <string name="text_accounts">Educate yourself today</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Rabbit Keeping</string>
+</resources>

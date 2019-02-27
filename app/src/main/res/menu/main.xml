@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_red"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/breeds"/>
+
+        <item
+            android:id="@+id/menu_post"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/breeding"/>
+
+        <item
+            android:id="@+id/menu_pple"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/food"/>
+
+        <item
+            android:id="@+id/menu_miss"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/farm"/>
+
+
+        <item
+            android:id="@+id/menu_mpesa"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/house"/>
+        <item
+            android:id="@+id/menu_green"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/diseases"/>
+
+        <item
+            android:id="@+id/menu_yellow"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/products"/>
+        <item
+            android:id="@+id/market"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/market"/>
+        <item
+            android:id="@+id/menu_logout"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/logout"/>
+
+
+    </group>
+
+</menu>

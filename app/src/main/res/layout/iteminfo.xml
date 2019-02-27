@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/type"
+            android:text="type"
+            android:layout_weight="2"
+            android:textColor="@color/colorTextHint" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/descriptin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="description"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+</RelativeLayout>
